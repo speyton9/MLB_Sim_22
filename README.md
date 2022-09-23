@@ -7,3 +7,5 @@ This is a simple MLB game simulator for Fanduel that will run each game n times.
 
 As a default, I have included a play by play to print as the program runs but to speed and/or avoid crashing with a larger number of simulations(+1000), comment
 out the print lines in game.py.
+
+I have provided a sample input in Stats.csv and MLBsim.csv is the output.
