@@ -14,7 +14,7 @@ team = []
 
 #Pull Stats from CSV and set up Initial Lists
 def pull_csv(self):
-    df = pd.read_csv(r'C:\\Users\\Steven\\Desktop\\DFS\\MLB\\Stats.csv', delimiter=',')     #Get CSV
+    df = pd.read_csv(r'YOUR PATH HERE', delimiter=',')     #Get CSV
     data = [list(row) for row in df.values]     # Place Stats in List
     games = df.Game.unique()        # List of Unique Games
     players = df.Nickname.unique()        # List of Unique Names
