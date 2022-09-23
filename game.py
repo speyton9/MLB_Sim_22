@@ -698,7 +698,7 @@ class Sim:
             templist.append(Table_dict)
             df = pd.DataFrame(templist)
             pl += 1
-        df.to_csv(r'C:\Users\Steven\Desktop\DFS\MLB\MLBsim.csv')
+        df.to_csv(r'YOUR PATH HERE.csv')
 
 
 
